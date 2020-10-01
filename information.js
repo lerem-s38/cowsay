@@ -1,6 +1,4 @@
-const information = {
-  name: 'Rémi ',
-  campus: 'Lyon campus',
-};
-
+let information = new Object();
+information.name = 'Remi';
+information.campus = 'Lyon campus';
 module.exports = information;

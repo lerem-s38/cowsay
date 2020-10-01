@@ -1,11 +1,6 @@
-const Information = require('./information.js');
+const information = require('./information.js');
 
 var cowsay = require('cowsay');
-
-/* const information = {
-  name: 'Rémi ',
-  campus: 'Lyon campus',
-}; */
 
 console.log(
   cowsay.say({
